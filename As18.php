@@ -3,6 +3,11 @@ echo "<a target='_blank' href='#'>GitHub Repo</a> ";
 
 main();
 
+function repoTestSuper() {
+
+	echo "THis is the function to keep"
+}
+
 function main () {
 	
 	$apiCall = 'http://api.covid19api.com/summary ';
